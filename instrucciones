@@ -1,0 +1,4 @@
+npm install
+npm install express
+npm run server
+npm run dev (en otra ventana de cmd)
