@@ -2,3 +2,19 @@ npm install
 npm install express
 npm run server
 npm run dev (en otra ventana de cmd)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+npm run dev: Inicia el servidor de desarrollo de Vite que maneja la parte frontend de la aplicación (React). Este servidor:
+
+Proporciona recarga en caliente (hot reloading)
+Compila el código TypeScript y JSX
+Sirve los archivos estáticos
+Se ejecuta en el puerto 5173 por defecto
+
+npm run server: Inicia el servidor backend Express que:
+
+Maneja las operaciones CRUD de las tareas
+Gestiona el almacenamiento de datos en el archivo tasks.json
+Proporciona la API REST
+Se ejecuta en el puerto 3000
